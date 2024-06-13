@@ -1,0 +1,47 @@
+// variables
+$primary-color: white;
+$secondary-color: rgb(234, 190, 230);
+$third-color: rgb(110, 126, 231);
+$border: 2px solid black;
+
+
+
+.books {
+    background-color: $secondary-color;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: $border;
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: $third-color;
+    }
+
+    p{font-size: 20px;
+    font-weight: bold;
+    padding: 5rem;
+    }
+    .box{
+        background-color: lighte($primary-color, 20%);
+    }
+}
+
+.book-1{
+    border: $border;
+}
+
+.footer {
+    display: block;
+  }

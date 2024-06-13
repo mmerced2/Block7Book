@@ -1,0 +1,30 @@
+.books {
+  background-color: rgb(234, 190, 230);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.books h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.books h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.books h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(110, 126, 231);
+}
+.books p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5rem;
+}
+.books .box {
+  background-color: lighte(white, 20%);
+}/*# sourceMappingURL=style.css.map */
